@@ -1,0 +1,15 @@
+I want to create an Android app that can scan QR codes. When a QR code is scanned, I want to 
+be able to enter a mark associated with that code. This data (QR code and mark) should then be 
+saved to a CSV file. The app should have a New button on the main screen. When this button is 
+pressed, it should prompt the user to enter a name for the new CSV file. After entering the name, 
+the app should switch to a scanning screen. The scanning screen should display a button to 
+initiate the QR code scan and a text view to potentially show feedback. After a successful scan, 
+a dialog should appear asking the user to enter the mark for the scanned QR code. 
+There should be 'OK', 'Cancel', and 'Done' buttons in this dialog. Saving Logic: "When the 'OK' 
+button is pressed in the mark entry dialog, the mark should be associated with the scanned QR 
+code in memory, and the scanner should be ready for the next scan. When the 'Done' button is
+pressed, all the collected data (QR codes and their marks) should be saved to the CSV file 
+named earlier." The CSV file should be saved in the device's Downloads folder, within a 
+subdirectory named 'MarkReaderData'. "If the same QR code is scanned again, the newly entered 
+mark should replace the previously entered mark for that QR code." When the CSV file is generated,
+the first column should be named 'ID Number' and the second column should be named 'Marks'."

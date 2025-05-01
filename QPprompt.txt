@@ -1,0 +1,11 @@
+Write a Python script that generates customized question papers for students using a CSV file 
+provided via the command line. The CSV contains columns: Name and ID number.
+The script should assign random odd seat numbers, ensuring consecutive students receive different 
+versions of the question papers V1.pdf, V2.pdf, and V3.pdf. The updated seat numbers should be 
+saved back into the same CSV file, and the students should be sorted by seat number before 
+generating the question papers. Each student should have a front page with the title "Quiz 2" 
+in bold, their name in bold, ID and seat number printed below, with the seat number also 
+appearing at the top right corner. The front page should include "Total Marks" with an empty 
+box next to it. There should be a QR code next to this box containing the student ID number.
+The final output should be a single merged PDF named customized_question_papers.pdf 
+containing all student question papers in order of seat numbers.
